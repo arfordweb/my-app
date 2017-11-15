@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Hello from './Hello/Hello';
+import Hello from './Hello';
 import './App.css';
 
 const logo = "https://www.sellerlabs.com/wp-content/uploads/sites/6/2017/02/SellerLabs_logo.png";
