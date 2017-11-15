@@ -9,6 +9,10 @@ const styles = {
 };
 
 class Hello extends Component {
+  propTypes: {
+    lang: PropTypes.string.isRequired,
+    username: PropTypes.string.isRequired,
+  }
   render() {
     return (
       <div style={ styles.helloContainer }>
