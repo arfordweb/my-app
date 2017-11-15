@@ -9,7 +9,7 @@ class UserTable extends Component {
       </thead>
       <tbody>
         { this.props.users && this.props.users.map(function (user) {
-          return (<tr>
+          return (<tr key={user.username}>
             <td>{user.username}</td><td>{user.password}</td><td>{user.role}</td>
           </tr>);
         }) }
